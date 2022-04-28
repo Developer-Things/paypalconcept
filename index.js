@@ -4,8 +4,10 @@ var app = express()
 
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
-    'client_id':"AYPdIHiy3uDoieNMLIqL_OSOekSKYI4UVGcbwh78CyaAE4gbtrvTV76vLikYkm3554Z2WONnhEZ4s4DJ"
-    ,'client_secret':"EHrvIwGmwYEs91u6LOG_MnPzmz974xC2StbanQd3qQ2GQAmmJVhBSca7hnMowmEg_RHPfBsB3bQUrpmN"
+    'client_id':"AYFHPq6iRpKLUR9crhFZBh97QWd3_GtgOKWLwLAO-4KOdYM4CArqd5wsjyT3_5WTU123Z4btoCWild48"
+    // "AWCsU8bbK1WNn9XDa8Vd8hQfSJWyq5VsW_Wlu8InEKIlfK_9YDcg-7rewuONXfyT2nCofSrs_AX10RUp"
+    ,'client_secret':"EL9L8zszbZyzV5Z3k38rhmVTeoSadpyJuyHWMPsS4LuHogCFaw8dK25gp-EISaBVG-Joo5ZzV0xyhHU4"
+    // "EEfDpykhVxisFenPeWZQ0sKIO8QaLnzeDJ6JtZhvuN7eOkBZFbbJYEYLDjcVAHKpwf1ofulN1GCfXIAv"
 });
 
 
@@ -62,17 +64,20 @@ app.post('/pay', (req, res) => {
       "transactions": [{
           "amount": {
               "currency": "USD",
-              "total": "25.00"
+              "total": "1.00"
           }
       }]
     };
   
-    paypal.payment.execute(paymentId, execute_payment_json, function (error, payment) {
+    paypal.payment.execute(paymentId, execute_payment_json, 
+        function (error, payment) {
       if (error) {
           console.log(error.response);
+          console.log('err')
           throw error;
       } else {
           console.log(JSON.stringify(payment));
+          console.log('success' )
           res.send('Success');
       }
   });
@@ -83,3 +88,16 @@ app.post('/pay', (req, res) => {
 
 
 app.listen(4000, () => console.log('server started'))
+
+// Email ID:
+// sb-blgl478597960@business.example.com
+// System Generated Password:
+// Task@123
+
+
+// Email ID:
+// sb-lkt1m14682189@business.example.com
+// System Generated Password:
+// H{[=%q?1
+
+
