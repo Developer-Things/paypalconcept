@@ -100,4 +100,36 @@ app.listen(4000, () => console.log('server started'))
 // System Generated Password:
 // H{[=%q?1
 
+//project1 Admin
+Client ID=>AVsAqC4fYaIa86aVwvu4bG1-Hg1AwvxKg_kmTFqxp3_ZlTr4bzu2JoQ9XP2tVOvsdyYE6-OWJa7ZjGXc
+secretid=>ENGhbUpQ03mKforrrytV5_wG4x3E5F7_CbcD3b2u2k-8vLOcGnEOyn_ulhXF8IpHu3gX3GayYsRs-zFW
+email=>sb-xdsep14719670@business.example.com
+password=>eW<1SZ0e
+
+//project2 Admin
+Client ID=>AQXQL9jmUNkiwXk_Fxrz2PsCK6P710wvq3R5Eqgw5-LcDhOnVx7cUJIzGnhLhjv6w396rNSgYlwjKeVt
+secretid=>EEpv1emh716nOOIPDT05esCY3gMQVsDciJ-rlzhxT-fMgMDb7Giityb_giYGXXve9HvgUdNDP07iFe6-
+email=>sb-owmxs14722775@business.example.com
+password=>IMe1Vlv-
+    
+//project3 Admin
+Client ID=>AdzISGgK6kqjmTLwh6pWVXB6LqnHN4yLVQBGwXu6RKC2IKAp-T0QhVdS4r5NcIjzRjDTDLXKMGG_TfyV
+secretid=>EN2Ri4ARDP9q9dFLJQcO9YdfzTBinFmRAuJYefb0kjNPn6r5PAp7GjzStiu0Kb0a8dDwrM5ZRw3xPXjD 
+email=>sb-cmubm14722898@business.example.com
+password=>3a(o'E%Y
+             
+//project1 user 
+email=>sb-4ygkp15216549@personal.example.com
+password=>i&Nbi'1S
+             
+//project2 user
+email=> sb-9cwa515216495@personal.example.com
+password=>Q-Ty/wE6
+             
+//project3 user
+email=>sb-ao2my15216574@personal.example.com
+password=>   ><M'3*v$
+
+
+
 
