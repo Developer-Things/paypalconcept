@@ -4,9 +4,9 @@ var app = express()
 
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
-    'client_id':"AYFHPq6iRpKLUR9crhFZBh97QWd3_GtgOKWLwLAO-4KOdYM4CArqd5wsjyT3_5WTU123Z4btoCWild48"
+    'client_id':"AY1NKy8yFiCRi0iL8S81TyLE6lo9PBo7XRBDKQHnHD4t3Skp4q_nZ0rlr6nPDxr7_nUvRBjF0BuUyPfg"
     // "AWCsU8bbK1WNn9XDa8Vd8hQfSJWyq5VsW_Wlu8InEKIlfK_9YDcg-7rewuONXfyT2nCofSrs_AX10RUp"
-    ,'client_secret':"EL9L8zszbZyzV5Z3k38rhmVTeoSadpyJuyHWMPsS4LuHogCFaw8dK25gp-EISaBVG-Joo5ZzV0xyhHU4"
+      ,'client_secret':"EIvfRO-QJuphMHrfDbZZdZesZLqnSXw2oQOyIRKB9FRF075yfoabmLyWnqx8A8ZuLB0CRqLwT995qbMW"
     // "EEfDpykhVxisFenPeWZQ0sKIO8QaLnzeDJ6JtZhvuN7eOkBZFbbJYEYLDjcVAHKpwf1ofulN1GCfXIAv"
 });
 
@@ -14,7 +14,7 @@ paypal.configure({
 app.get('/', (req, res) => res.sendFile(__dirname + "/index.html"));
 
 app.post('/pay', (req, res) => {
-    const create_payment_json = {
+     const create_payment_json = {
       "intent": "sale",
       "payer": {
           "payment_method": "paypal"
@@ -100,38 +100,20 @@ app.listen(4000, () => console.log('server started'))
 // System Generated Password:
 // H{[=%q?1
 
-//project1 Admin
-Client ID=>AVsAqC4fYaIa86aVwvu4bG1-Hg1AwvxKg_kmTFqxp3_ZlTr4bzu2JoQ9XP2tVOvsdyYE6-OWJa7ZjGXc
-secretid=>ENGhbUpQ03mKforrrytV5_wG4x3E5F7_CbcD3b2u2k-8vLOcGnEOyn_ulhXF8IpHu3gX3GayYsRs-zFW
-email=>sb-xdsep14719670@business.example.com
-password=>eW<1SZ0e
 
-//project2 Admin
-Client ID=>AQXQL9jmUNkiwXk_Fxrz2PsCK6P710wvq3R5Eqgw5-LcDhOnVx7cUJIzGnhLhjv6w396rNSgYlwjKeVt
-secretid=>EEpv1emh716nOOIPDT05esCY3gMQVsDciJ-rlzhxT-fMgMDb7Giityb_giYGXXve9HvgUdNDP07iFe6-
-email=>sb-owmxs14722775@business.example.com
-password=>IMe1Vlv-
-    
-//project3 Admin
-Client ID=>AdzISGgK6kqjmTLwh6pWVXB6LqnHN4yLVQBGwXu6RKC2IKAp-T0QhVdS4r5NcIjzRjDTDLXKMGG_TfyV
-secretid=>EN2Ri4ARDP9q9dFLJQcO9YdfzTBinFmRAuJYefb0kjNPn6r5PAp7GjzStiu0Kb0a8dDwrM5ZRw3xPXjD 
-email=>sb-cmubm14722898@business.example.com
-password=>3a(o'E%Y
              
-//project1 user 
-email=>sb-4ygkp15216549@personal.example.com
-password=>i&Nbi'1S
+//project1 admin
+ email=>sb-4z6s115244293@business.example.com
+password=>5(*sH$^k
+Client ID=>AY1NKy8yFiCRi0iL8S81TyLE6lo9PBo7XRBDKQHnHD4t3Skp4q_nZ0rlr6nPDxr7_nUvRBjF0BuUyPfg
+secretid=>EIvfRO-QJuphMHrfDbZZdZesZLqnSXw2oQOyIRKB9FRF075yfoabmLyWnqx8A8ZuLB0CRqLwT995qbMW
              
-//project2 user
-email=> sb-9cwa515216495@personal.example.com
-password=>Q-Ty/wE6
-             
-//project3 user
-email=>sb-ao2my15216574@personal.example.com
-password=>   ><M'3*v$
-
-
-//project4 user
+//project1 user
 email=>raji12@business.example.com
 password=>Task@12345
 
+//project2 user
+email=>aravind@business.example.com
+password=>Task@12345
+
+            
