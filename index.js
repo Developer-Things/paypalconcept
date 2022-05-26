@@ -106,12 +106,5 @@ password=>5(*sH$^k
 Client ID=>AY1NKy8yFiCRi0iL8S81TyLE6lo9PBo7XRBDKQHnHD4t3Skp4q_nZ0rlr6nPDxr7_nUvRBjF0BuUyPfg
 secretid=>EIvfRO-QJuphMHrfDbZZdZesZLqnSXw2oQOyIRKB9FRF075yfoabmLyWnqx8A8ZuLB0CRqLwT995qbMW
              
-//project1 user
-email=>raji12@business.example.com
-password=>Task@12345
-
-//project2 user
-email=>aravind@business.example.com
-password=>Task@12345
 
             
